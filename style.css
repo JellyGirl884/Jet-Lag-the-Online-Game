@@ -1,0 +1,19 @@
+body {
+  font-family: barlow;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background: lightgray;
+  cursor: pointer;
+}
